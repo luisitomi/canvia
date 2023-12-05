@@ -23,11 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.CrossCuting.Common"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.CrossCuting.DTO", "Backend.CrossCuting.DTO\Backend.CrossCuting.DTO.csproj", "{1B594E1B-5A41-4C5F-9C8F-8DCBECED7334}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{DB473C9D-39CF-43B6-811C-937285BCC272}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DB473C9D-39CF-43B6-811C-937285BCC272}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Service.Interface", "Backend.Service.Interface\Backend.Service.Interface.csproj", "{1F9BC4EC-F2A3-4D98-8406-610B0D934DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Application.Interface", "Backend.Service.Interface\Backend.Application.Interface.csproj", "{1F9BC4EC-F2A3-4D98-8406-610B0D934DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Service.Implementation", "Backend.Service.Implementation\Backend.Service.Implementation.csproj", "{CEE3C766-C663-4072-A2B3-FD87B061E07F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend.Application.Implementation", "Backend.Service.Implementation\Backend.Application.Implementation.csproj", "{CEE3C766-C663-4072-A2B3-FD87B061E07F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-﻿using Backend.CrossCuting.DTO.Maestro;
+﻿using Backend.Domain.Entities.Entities.Maestro;
 using Backend.Infraestructure.Repository.Repository;
 using Dapper;
 using System.Collections.Generic;
@@ -13,12 +13,12 @@ namespace Backend.Infraestructure.Repository.MaestroRepository
         {
         }
 
-        public async Task<List<MaestroDTO>> MasterDetailInformation(string code)
+        public async Task<List<MaestroModel>> MasterDetailInformation(string code)
         {
             IDbConnection connection = Connection;
             DynamicParameters parameters = new();
             parameters.Add("@code", code, DbType.String);
-            return (List<MaestroDTO>)await connection.QueryAsync<MaestroDTO>(@"[noCopiar].[usp_maestro_detail_by_code]", parameters, transaction: Transaction, commandType: CommandType.StoredProcedure);
+            return (List<MaestroModel>)await connection.QueryAsync<MaestroModel>(@"[noCopiar].[usp_maestro_detail_by_code]", parameters, transaction: Transaction, commandType: CommandType.StoredProcedure);
         }
     }
 }

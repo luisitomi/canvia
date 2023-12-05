@@ -90,7 +90,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -479,11 +483,11 @@
               "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj": {
                 "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj"
               },
-              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj": {
-                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj"
+              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj"
               },
-              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj": {
-                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj"
+              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
               }
             }
           }
@@ -546,12 +550,12 @@
         }
       }
     },
-    "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj": {
+    "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj",
-        "projectName": "Backend.Service.Implementation",
-        "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj",
+        "projectName": "Backend.Application.Implementation",
+        "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\obj\\",
         "projectStyle": "PackageReference",
@@ -574,8 +578,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj": {
-                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj"
+              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
               }
             }
           }
@@ -609,12 +613,12 @@
         }
       }
     },
-    "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj": {
+    "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj",
-        "projectName": "Backend.Service.Interface",
-        "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj",
+        "projectName": "Backend.Application.Interface",
+        "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\obj\\",
         "projectStyle": "PackageReference",

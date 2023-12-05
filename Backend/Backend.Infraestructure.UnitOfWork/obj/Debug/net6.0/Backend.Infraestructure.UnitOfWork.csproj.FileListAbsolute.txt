@@ -42,3 +42,4 @@ C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.UnitOfWork\bin\Debu
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.UnitOfWork\bin\Debug\net6.0\Backend.Domain.Entities.pdb
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.UnitOfWork\obj\Debug\net6.0\Backend.Infraestructure.UnitOfWork.csproj.CopyComplete
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.UnitOfWork\obj\Debug\net6.0\ref\Backend.Infraestructure.UnitOfWork.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.UnitOfWork\obj\Debug\net6.0\Backend.Infraestructure.UnitOfWork.sourcelink.json

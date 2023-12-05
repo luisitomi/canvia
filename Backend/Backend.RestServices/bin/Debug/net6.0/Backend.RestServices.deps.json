@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "Backend.RestServices/1.0.0": {
         "dependencies": {
+          "Backend.Application.Implementation": "1.0.0",
+          "Backend.Application.Interface": "1.0.0",
           "Backend.CrossCuting.Common": "1.0.0",
           "Backend.Domain.Entities": "1.0.0",
           "Backend.Infraestructure.Repository": "1.0.0",
           "Backend.Infraestructure.UnitOfWork": "1.0.0",
-          "Backend.Service.Implementation": "1.0.0",
-          "Backend.Service.Interface": "1.0.0",
           "FluentValidation.AspNetCore": "11.2.2",
           "Microsoft.ApplicationInsights.AspNetCore": "2.16.0",
           "Microsoft.ApplicationInsights.NLogTarget": "2.16.0",
@@ -1108,12 +1108,32 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Backend.Application.Implementation/1.0.0": {
+        "dependencies": {
+          "Backend.Application.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Backend.Application.Implementation.dll": {}
+        }
+      },
+      "Backend.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0",
+          "Backend.Infraestructure.UnitOfWork": "1.0.0"
+        },
+        "runtime": {
+          "Backend.Application.Interface.dll": {}
+        }
+      },
       "Backend.CrossCuting.Common/1.0.0": {
         "runtime": {
           "Backend.CrossCuting.Common.dll": {}
         }
       },
       "Backend.CrossCuting.DTO/1.0.0": {
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
         "runtime": {
           "Backend.CrossCuting.DTO.dll": {}
         }
@@ -1163,23 +1183,6 @@
         },
         "runtime": {
           "Backend.Infraestructure.UnitOfWork.dll": {}
-        }
-      },
-      "Backend.Service.Implementation/1.0.0": {
-        "dependencies": {
-          "Backend.Service.Interface": "1.0.0"
-        },
-        "runtime": {
-          "Backend.Service.Implementation.dll": {}
-        }
-      },
-      "Backend.Service.Interface/1.0.0": {
-        "dependencies": {
-          "Backend.Domain.Entities": "1.0.0",
-          "Backend.Infraestructure.UnitOfWork": "1.0.0"
-        },
-        "runtime": {
-          "Backend.Service.Interface.dll": {}
         }
       }
     }
@@ -2037,6 +2040,16 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Backend.Application.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backend.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Backend.CrossCuting.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2063,16 +2076,6 @@
       "sha512": ""
     },
     "Backend.Infraestructure.UnitOfWork/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Backend.Service.Implementation/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Backend.Service.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

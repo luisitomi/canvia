@@ -175,7 +175,8 @@ C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\obj\Debug\net6.0\scope
 C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\obj\Debug\net6.0\Backend.RestServices.csproj.CopyComplete
 C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\obj\Debug\net6.0\Backend.RestServices.genruntimeconfig.cache
 C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\obj\Debug\net6.0\ref\Backend.RestServices.dll
-C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Service.Interface.dll
-C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Service.Interface.pdb
-C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Service.Implementation.dll
-C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Service.Implementation.pdb
+C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\obj\Debug\net6.0\Backend.RestServices.sourcelink.json
+C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Application.Implementation.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Application.Interface.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Application.Implementation.pdb
+C:\Users\Luis\Desktop\canvia\Backend\Backend.RestServices\bin\Debug\net6.0\Backend.Application.Interface.pdb

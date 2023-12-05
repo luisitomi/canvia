@@ -90,7 +90,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj": {
+                "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

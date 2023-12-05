@@ -2055,6 +2055,33 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Backend.Application.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Application.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Application.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Application.Implementation.dll": {}
+        }
+      },
+      "Backend.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0",
+          "Backend.Infraestructure.UnitOfWork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Application.Interface.dll": {}
+        }
+      },
       "Backend.CrossCuting.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2068,6 +2095,9 @@
       "Backend.CrossCuting.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Backend.CrossCuting.DTO.dll": {}
         },
@@ -2140,33 +2170,6 @@
         },
         "runtime": {
           "bin/placeholder/Backend.Infraestructure.UnitOfWork.dll": {}
-        }
-      },
-      "Backend.Service.Implementation/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Backend.Service.Interface": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Backend.Service.Implementation.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Backend.Service.Implementation.dll": {}
-        }
-      },
-      "Backend.Service.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Backend.Domain.Entities": "1.0.0",
-          "Backend.Infraestructure.UnitOfWork": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Backend.Service.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Backend.Service.Interface.dll": {}
         }
       }
     }
@@ -6402,6 +6405,16 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Backend.Application.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Service.Implementation/Backend.Application.Implementation.csproj",
+      "msbuildProject": "../Backend.Service.Implementation/Backend.Application.Implementation.csproj"
+    },
+    "Backend.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Service.Interface/Backend.Application.Interface.csproj",
+      "msbuildProject": "../Backend.Service.Interface/Backend.Application.Interface.csproj"
+    },
     "Backend.CrossCuting.Common/1.0.0": {
       "type": "project",
       "path": "../Backend.CrossCuting.Common/Backend.CrossCuting.Common.csproj",
@@ -6431,26 +6444,16 @@
       "type": "project",
       "path": "../Backend.Infraestructure.UnitOfWork/Backend.Infraestructure.UnitOfWork.csproj",
       "msbuildProject": "../Backend.Infraestructure.UnitOfWork/Backend.Infraestructure.UnitOfWork.csproj"
-    },
-    "Backend.Service.Implementation/1.0.0": {
-      "type": "project",
-      "path": "../Backend.Service.Implementation/Backend.Service.Implementation.csproj",
-      "msbuildProject": "../Backend.Service.Implementation/Backend.Service.Implementation.csproj"
-    },
-    "Backend.Service.Interface/1.0.0": {
-      "type": "project",
-      "path": "../Backend.Service.Interface/Backend.Service.Interface.csproj",
-      "msbuildProject": "../Backend.Service.Interface/Backend.Service.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Backend.Application.Implementation >= 1.0.0",
+      "Backend.Application.Interface >= 1.0.0",
       "Backend.CrossCuting.Common >= 1.0.0",
       "Backend.Domain.Entities >= 1.0.0",
       "Backend.Infraestructure.Repository >= 1.0.0",
       "Backend.Infraestructure.UnitOfWork >= 1.0.0",
-      "Backend.Service.Implementation >= 1.0.0",
-      "Backend.Service.Interface >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.16.0",
       "Microsoft.ApplicationInsights.NLogTarget >= 2.16.0",
@@ -6503,11 +6506,11 @@
             "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj": {
               "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj"
+            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj": {
+              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj"
+            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
+              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
             }
           }
         }

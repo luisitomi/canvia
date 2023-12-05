@@ -38,3 +38,4 @@ C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.Repository\obj\Debu
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.Repository\obj\Debug\net6.0\refint\Backend.Infraestructure.Repository.dll
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.Repository\obj\Debug\net6.0\Backend.Infraestructure.Repository.pdb
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.Repository\obj\Debug\net6.0\ref\Backend.Infraestructure.Repository.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.Infraestructure.Repository\obj\Debug\net6.0\Backend.Infraestructure.Repository.sourcelink.json

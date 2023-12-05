@@ -1,5 +1,7 @@
 ﻿using Backend.CrossCuting.Helpers;
+using Backend.Infraestructure.Repository.ClienteRepository;
 using Backend.Infraestructure.Repository.MaestroRepository;
+using Backend.Infraestructure.Repository.ProductoRepository;
 using System;
 using System.Data;
 using System.Data.SqlClient;
@@ -14,6 +16,8 @@ namespace Backend.Infraestructure.UnitOfWork
         private bool _disposed;
 
         public IMaestroRepository MaestroRepository => new MaestroRepository(_transaction);
+        public IClienteRepository ClienteRepository => new ClienteRepository(_transaction);
+        public IProductoRepository ProductoRepository => new ProductoRepository(_transaction);
 
         public UnitOfWork()
         {

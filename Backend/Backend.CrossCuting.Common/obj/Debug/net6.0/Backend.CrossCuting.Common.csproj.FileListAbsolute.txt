@@ -20,3 +20,4 @@ C:\Users\Luis\Desktop\canvia\Backend\Backend.CrossCuting.Common\obj\Debug\net6.0
 C:\Users\Luis\Desktop\canvia\Backend\Backend.CrossCuting.Common\obj\Debug\net6.0\refint\Backend.CrossCuting.Common.dll
 C:\Users\Luis\Desktop\canvia\Backend\Backend.CrossCuting.Common\obj\Debug\net6.0\Backend.CrossCuting.Common.pdb
 C:\Users\Luis\Desktop\canvia\Backend\Backend.CrossCuting.Common\obj\Debug\net6.0\ref\Backend.CrossCuting.Common.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.CrossCuting.Common\obj\Debug\net6.0\Backend.CrossCuting.Common.sourcelink.json

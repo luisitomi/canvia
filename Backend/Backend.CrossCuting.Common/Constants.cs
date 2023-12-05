@@ -2,6 +2,13 @@
 {
     public class Constants
     {
+        public struct Core
+        {
+            public struct Master
+            {
+                public const string Comprobante = "CACOMP";
+            }
+        }
         public struct Common
         {
             public struct DateTimeFormats

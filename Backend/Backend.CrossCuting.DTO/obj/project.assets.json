@@ -1,11 +1,80 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "FluentValidation/10.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Backend.CrossCuting.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Backend.CrossCuting.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.CrossCuting.Common.dll": {}
+        }
+      },
+      "Backend.Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.CrossCuting.Common": "1.0.0",
+          "FluentValidation": "10.2.3"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Domain.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FluentValidation/10.2.3": {
+      "sha512": "R2w/E6jgg9RPSlg7JQSTHg6AWDwlOXARaV4ZUKrPJ1gi1e+oaBEcomxmo29j9BLZivkyQhOpAboJ9nKZS4/xYA==",
+      "type": "package",
+      "path": "fluentvalidation/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.2.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Backend.CrossCuting.Common/1.0.0": {
+      "type": "project",
+      "path": "../Backend.CrossCuting.Common/Backend.CrossCuting.Common.csproj",
+      "msbuildProject": "../Backend.CrossCuting.Common/Backend.CrossCuting.Common.csproj"
+    },
+    "Backend.Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Domain.Entities/Backend.Domain.Entities.csproj",
+      "msbuildProject": "../Backend.Domain.Entities/Backend.Domain.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Backend.Domain.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Luis\\.nuget\\packages\\": {},
@@ -38,7 +107,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj": {
+              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

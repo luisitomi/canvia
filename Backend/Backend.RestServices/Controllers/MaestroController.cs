@@ -1,6 +1,6 @@
 ﻿using Backend.CrossCuting.Common;
 using Backend.Domain.Entities.Util;
-using Backend.Service.Interface.Maestro;
+using Backend.Application.Interface.Maestro;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -11,10 +11,10 @@ namespace Backend.RestServices.Controllers
     [ApiController]
     public class MaestroController : ControllerBase
     {
-        private readonly IMaestroService _maestroService;
-        public MaestroController(IMaestroService maestroService)
+        private readonly IMaestroApplication _maestroApplication;
+        public MaestroController(IMaestroApplication maestroApplication)
         {
-            _maestroService = maestroService;
+            _maestroApplication = maestroApplication;
         }
 
         [HttpGet]
@@ -23,8 +23,8 @@ namespace Backend.RestServices.Controllers
             ResponseDTO response;
             try
             {
-                var data = await _maestroService.MasterDetailInformation("code");
-                response = new ResponseDTO { Data = data, Status = Constants.CodigoEstado.Ok };
+                var data = await _maestroApplication.MasterDetailInformation();
+                response = new ResponseDTO { Data = data.Data, Status = Constants.CodigoEstado.Ok };
             }
             catch (FunctionalException ex)
             {

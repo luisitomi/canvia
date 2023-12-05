@@ -3,8 +3,8 @@ using Backend.Infraestructure.UnitOfWork;
 using Backend.RestServices.Code.AuthEntity;
 using Backend.RestServices.Code.Log;
 using Backend.RestServices.Code.ServiceHelpers;
-using Backend.Service.Implementation.Maestro;
-using Backend.Service.Interface.Maestro;
+using Backend.Application.Implementation.Maestro;
+using Backend.Application.Interface.Maestro;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -101,7 +101,7 @@ namespace Backend.RestServices
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IMaestroService, MaestroService>();
+            services.AddScoped<IMaestroApplication, MaestroApplication>();
             services.AddSingleton<ILoggerManager, LoggerManager>();
             /*services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);*/
 

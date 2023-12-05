@@ -1155,6 +1155,9 @@
         }
       },
       "Backend.CrossCuting.DTO/1.0.0": {
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
         "runtime": {
           "Backend.CrossCuting.DTO.dll": {}
         }

@@ -1867,6 +1867,9 @@
       "Backend.CrossCuting.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Backend.CrossCuting.DTO.dll": {}
         },
@@ -5949,9 +5952,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj",
-      "projectName": "Backend.Service.Interface",
-      "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj",
+      "projectName": "Backend.Application.Interface",
+      "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\obj\\",
       "projectStyle": "PackageReference",

@@ -1854,6 +1854,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Backend.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0",
+          "Backend.Infraestructure.UnitOfWork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Backend.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backend.Application.Interface.dll": {}
+        }
+      },
       "Backend.CrossCuting.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1867,6 +1881,9 @@
       "Backend.CrossCuting.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Backend.CrossCuting.DTO.dll": {}
         },
@@ -1939,20 +1956,6 @@
         },
         "runtime": {
           "bin/placeholder/Backend.Infraestructure.UnitOfWork.dll": {}
-        }
-      },
-      "Backend.Service.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Backend.Domain.Entities": "1.0.0",
-          "Backend.Infraestructure.UnitOfWork": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Backend.Service.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Backend.Service.Interface.dll": {}
         }
       }
     }
@@ -5919,6 +5922,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Backend.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Backend.Service.Interface/Backend.Application.Interface.csproj",
+      "msbuildProject": "../Backend.Service.Interface/Backend.Application.Interface.csproj"
+    },
     "Backend.CrossCuting.Common/1.0.0": {
       "type": "project",
       "path": "../Backend.CrossCuting.Common/Backend.CrossCuting.Common.csproj",
@@ -5948,16 +5956,11 @@
       "type": "project",
       "path": "../Backend.Infraestructure.UnitOfWork/Backend.Infraestructure.UnitOfWork.csproj",
       "msbuildProject": "../Backend.Infraestructure.UnitOfWork/Backend.Infraestructure.UnitOfWork.csproj"
-    },
-    "Backend.Service.Interface/1.0.0": {
-      "type": "project",
-      "path": "../Backend.Service.Interface/Backend.Service.Interface.csproj",
-      "msbuildProject": "../Backend.Service.Interface/Backend.Service.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Backend.Service.Interface >= 1.0.0"
+      "Backend.Application.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5967,9 +5970,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj",
-      "projectName": "Backend.Service.Implementation",
-      "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Service.Implementation.csproj",
+      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj",
+      "projectName": "Backend.Application.Implementation",
+      "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\obj\\",
       "projectStyle": "PackageReference",
@@ -5992,8 +5995,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Service.Interface.csproj"
+            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
+              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
             }
           }
         }

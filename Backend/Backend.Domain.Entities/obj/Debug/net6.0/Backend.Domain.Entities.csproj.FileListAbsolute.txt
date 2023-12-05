@@ -28,3 +28,4 @@ C:\Users\Luis\Desktop\canvia\Backend\Backend.Domain.Entities\bin\Debug\net6.0\Ba
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Domain.Entities\bin\Debug\net6.0\Backend.CrossCuting.Common.pdb
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Domain.Entities\obj\Debug\net6.0\Backend.Domain.Entities.csproj.CopyComplete
 C:\Users\Luis\Desktop\canvia\Backend\Backend.Domain.Entities\obj\Debug\net6.0\ref\Backend.Domain.Entities.dll
+C:\Users\Luis\Desktop\canvia\Backend\Backend.Domain.Entities\obj\Debug\net6.0\Backend.Domain.Entities.sourcelink.json
