@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EfYHckoyQFWji0hYw5UcMrHwN2gcQoBpzYx/qVb93Wllj7whB+TR62xSJhlkZeZmTNU65NJEN0oEUmrDzGMpoA==",
+  "dgSpecHash": "HAH8TPD4hLChj0803IL7pDgTi9jkqnqURlMAASF8h12mmblUPNQIadz+wq1KtT3GvRIiJtTc4cqqOmqSDkKIHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.CrossCuting.Helpers\\Backend.CrossCuting.Helpers.csproj",
+  "projectFilePath": "C:\\Trabajos\\canvia\\Backend\\Backend.CrossCuting.Helpers\\Backend.CrossCuting.Helpers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.applicationinsights\\2.16.0\\microsoft.applicationinsights.2.16.0.nupkg.sha512",

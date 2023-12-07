@@ -6469,11 +6469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.RestServices\\Backend.RestServices.csproj",
+      "projectUniqueName": "C:\\Trabajos\\canvia\\Backend\\Backend.RestServices\\Backend.RestServices.csproj",
       "projectName": "Backend.RestServices",
-      "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.RestServices\\Backend.RestServices.csproj",
+      "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.RestServices\\Backend.RestServices.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.RestServices\\obj\\",
+      "outputPath": "C:\\Trabajos\\canvia\\Backend\\Backend.RestServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6494,23 +6494,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.CrossCuting.Common\\Backend.CrossCuting.Common.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.CrossCuting.Common\\Backend.CrossCuting.Common.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.CrossCuting.Common\\Backend.CrossCuting.Common.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.CrossCuting.Common\\Backend.CrossCuting.Common.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.Domain.Entities\\Backend.Domain.Entities.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.Infraestructure.UnitOfWork\\Backend.Infraestructure.UnitOfWork.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.Service.Implementation\\Backend.Application.Implementation.csproj"
             },
-            "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
-              "projectPath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
+            "C:\\Trabajos\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj": {
+              "projectPath": "C:\\Trabajos\\canvia\\Backend\\Backend.Service.Interface\\Backend.Application.Interface.csproj"
             }
           }
         }

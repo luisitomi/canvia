@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Backend.Infraestructure.Repository/1.0.0": {
         "dependencies": {
+          "Backend.CrossCuting.DTO": "1.0.0",
           "Backend.CrossCuting.Helpers": "1.0.0",
           "Backend.Domain.Entities": "1.0.0",
           "Dapper": "2.0.90",
@@ -1093,6 +1094,14 @@
           "Backend.CrossCuting.Common.dll": {}
         }
       },
+      "Backend.CrossCuting.DTO/1.0.0": {
+        "dependencies": {
+          "Backend.Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Backend.CrossCuting.DTO.dll": {}
+        }
+      },
       "Backend.CrossCuting.Helpers/1.0.0": {
         "dependencies": {
           "Backend.Domain.Entities": "1.0.0",
@@ -1852,6 +1861,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Backend.CrossCuting.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Backend.CrossCuting.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

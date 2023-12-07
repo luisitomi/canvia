@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wtFDRCaly7I8QM3x4RetfCfoVAQui7p5bWPFwCC/Nvap/3Qh1ioDZeBL2H+AxQ3upwBmSwfFAWxf9qrzrPL00w==",
+  "dgSpecHash": "eJlLP4Es3Z6Jnga4qguM6cI8hmAxBxlzmykWifO7MOH5jk2nj4hpSuWIpGfq6a3e5NJ7WFSE621dupQhrlwohQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luis\\Desktop\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj",
+  "projectFilePath": "C:\\Trabajos\\canvia\\Backend\\Backend.Infraestructure.Repository\\Backend.Infraestructure.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
